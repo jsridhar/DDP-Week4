@@ -32,7 +32,7 @@ shinyUI(fluidPage(
       radioButtons("gender", 
                    "Child's Gender", 
                    choices = list("Female" = "female", "Male" = "male")),
-      p("Change parent's height and / or child's gender to see the prediction of child's height.")
+      p("Select parent's height and / or child's gender to see the prediction of child's height.")
     ),
     
     # Show a plot of the generated distribution
